@@ -29,4 +29,4 @@ router.route('/reviews').delete(isAuthenticatedUser, deleteReview);
 
 
 
-module.exports = route;
+module.exports = router;
